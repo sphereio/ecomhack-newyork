@@ -263,11 +263,10 @@ header {
     margin-top: 25px;
     font-size: 50px !important; }
   #main-section .main-intro .big-text {
-    font-size: 80px;
     color: #f21c42;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    font-size: 98px;
+    font-size: 530%;
     line-height: 90px;
     margin-top: 5px;
     padding: 10px 0;
@@ -325,7 +324,7 @@ header {
     margin-top: 70px; }
   #about h2 {
     margin-top: 17px;
-    color: #f21c42; }
+    color: #82b3ae; }
   #about hr {
     background-color: rgba(0, 0, 0, 0.1); }
   #about .main-text {
@@ -1583,5 +1582,8 @@ div#partners hr {
 
 .timeline-info h3 {
   color: #f21c42; }
+
+#about hr {
+  background-color: #f21c42; }
 
 /*# sourceMappingURL=style.css.map */

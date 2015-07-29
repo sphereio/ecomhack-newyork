@@ -446,11 +446,11 @@ header{
 	    }
 
       .big-text {
-        font-size: 80px;
+
         color: $ecomhack-red;
         font-family: $montserrat-font;
         font-weight: 700;
-        font-size: 98px;
+        font-size:530%;
         line-height: 90px;
         margin-top: 5px;
         padding: 10px 0;
@@ -514,7 +514,7 @@ header{
 
 	h2{
 		margin-top: 17px;
-		color: $ecomhack-red;
+		color: $city-color;
 	}
 
   hr{
@@ -2137,4 +2137,9 @@ div#partners{
 
 .timeline-info h3{
 	color: $ecomhack-red;
+}
+
+
+#about hr{
+	background-color: $ecomhack-red;
 }
