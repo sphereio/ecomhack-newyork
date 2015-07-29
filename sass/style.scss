@@ -8,10 +8,14 @@ $link-color: #3b475f;
 $orange-color: #f46464;
 $orange-hover: #e97e6b;
 
+$ecomhack-red: rgb(242,28,66);
+$city-color:rgb(130, 179, 174);
+
 // fonts
 $montserrat-font: 'Montserrat', sans-serif;
 $opensans-font: 'Open Sans', sans-serif;
 $merriweather-font: 'Merriweather', sans-serif;
+
 
 
 /* =======  mixins  ========  */
@@ -381,7 +385,7 @@ header{
 
 #main-section{
 //	background: url("../img/main-bg.jpg") no-repeat fixed center bottom;
-	background-color: rgb(130, 179, 174);
+	background-color: $city-color;
     background-size: cover;
     color: transparent_color(#fff, .4);
     font-family: $montserrat-font;
@@ -443,7 +447,7 @@ header{
 
       .big-text {
         font-size: 80px;
-        color: #f21c42;
+        color: $ecomhack-red;
         font-family: $montserrat-font;
         font-weight: 700;
         font-size: 98px;
@@ -510,7 +514,7 @@ header{
 
 	h2{
 		margin-top: 17px;
-		color: #f21c42;
+		color: $ecomhack-red;
 	}
 
   hr{
@@ -558,7 +562,8 @@ header{
 /* ============================== */
 
 #event, #prices{
-	background: url("../img/feature-bg.png") no-repeat fixed center bottom;
+	//background: url("../img/feature-bg.png") no-repeat fixed center bottom;
+	background-color: #fff;
     background-size: cover;
 	padding: 80px 0;
 	text-align: center;
@@ -873,13 +878,13 @@ header{
 
 #venue{
 
-	background: url("../img/gallery-bg.jpg") no-repeat fixed center bottom;
+	background-color: #fff;
     background-size: cover;
 	padding: 135px 0;
 	position: relative;
 
 	.overlay{
-    	background-color: transparent_color(#192132, .92);
+    	background-color: #82b3ae;
 	    @include absPosition(0, auto, auto, 0);
 	    width: 100%;
 	    height: 100%;
@@ -968,6 +973,10 @@ header{
 	padding: 120px 0;
 	text-align: center;
 
+	& h2 {
+		color: $city-color;
+	}
+
 	.nav-tabs{
 		display: inline-block;
 		border: none;
@@ -1033,7 +1042,7 @@ header{
 
 			.date{
 				color: #fff;
-				background-color: $headline-color;
+				background-color: $city-color;
 				font-family: $montserrat-font;
 				font-size: 24px;
 				font-weight: 400;
@@ -1087,7 +1096,7 @@ header{
 			position: relative;
 
 			p{
-				color: $orange-color;
+				color: $city-color;
 				font-family: $montserrat-font;
 				font-size: 24px;
 				font-weight: 400;
@@ -1098,7 +1107,7 @@ header{
 			}
 
 			&:after{
-				background-color: $headline-color;
+				background-color: $city-color;
 				content: '';
 				position: absolute;
 				top: 40px;
@@ -1409,7 +1418,7 @@ header{
  }
 
 	hr{
-		background-color: #f21c42;
+		background-color: $ecomhack-red;
 		margin: 25px auto;
 		border: none;
 		width: 80px;
@@ -1897,6 +1906,7 @@ footer{
 
 	#timeline .timeline-wrapper .timeline-info h3{
 		font-size: 20px;
+		color: $ecomhack-red;
 	}
 
 	#testimonials .testi-slide p{
@@ -2098,7 +2108,7 @@ ul.rules li{
 	text-align: center;
 }
 .schedule hr{
-	background-color: #f21c42;
+	background-color: $ecomhack-red;
 	margin: 25px auto;
 	border: none;
 	width: 80px;
@@ -2107,7 +2117,7 @@ ul.rules li{
 
 
 #timeline hr{
-	background-color: #f21c42;
+	background-color: $ecomhack-red;
 	margin: 25px auto;
 	border: none;
 	width: 80px;
@@ -2117,10 +2127,14 @@ ul.rules li{
 div#partners{
 
 	hr{
-		background-color: #f21c42;
+		background-color: $ecomhack-red;
 		margin: 25px auto;
 		border: none;
 		width: 80px;
 		height: 4px;
 	}
+}
+
+.timeline-info h3{
+	color: $ecomhack-red;
 }

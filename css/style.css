@@ -353,7 +353,7 @@ header {
 /*		    features section  	  */
 /* ============================== */
 #event, #prices {
-  background: url("../img/feature-bg.png") no-repeat fixed center bottom;
+  background-color: #fff;
   background-size: cover;
   padding: 80px 0;
   text-align: center; }
@@ -603,12 +603,12 @@ header {
 /*		    z-layout2 section  	  */
 /* ============================== */
 #venue {
-  background: url("../img/gallery-bg.jpg") no-repeat fixed center bottom;
+  background-color: #fff;
   background-size: cover;
   padding: 135px 0;
   position: relative; }
   #venue .overlay {
-    background-color: rgba(25, 33, 50, 0.92);
+    background-color: #82b3ae;
     position: absolute;
     top: 0;
     right: auto;
@@ -678,6 +678,8 @@ header {
 #timeline {
   padding: 120px 0;
   text-align: center; }
+  #timeline h2 {
+    color: #82b3ae; }
   #timeline .nav-tabs {
     display: inline-block;
     border: none;
@@ -733,7 +735,7 @@ header {
       z-index: 1000; }
       #timeline .timeline-wrapper .date-container .date {
         color: #fff;
-        background-color: #3b475f;
+        background-color: #82b3ae;
         font-family: "Montserrat", sans-serif;
         font-size: 24px;
         font-weight: 400;
@@ -773,14 +775,14 @@ header {
       padding-top: 35px;
       position: relative; }
       #timeline .timeline-wrapper .timeline-date p {
-        color: #f46464;
+        color: #82b3ae;
         font-family: "Montserrat", sans-serif;
         font-size: 24px;
         font-weight: 400; }
         #timeline .timeline-wrapper .timeline-date p span {
           color: #3b475f; }
       #timeline .timeline-wrapper .timeline-date:after {
-        background-color: #3b475f;
+        background-color: #82b3ae;
         content: '';
         position: absolute;
         top: 40px;
@@ -1400,7 +1402,8 @@ footer {
     margin-bottom: 60px; }
 
   #timeline .timeline-wrapper .timeline-info h3 {
-    font-size: 20px; }
+    font-size: 20px;
+    color: #f21c42; }
 
   #testimonials .testi-slide p {
     padding: 0 20px; }
@@ -1577,5 +1580,8 @@ div#partners hr {
   border: none;
   width: 80px;
   height: 4px; }
+
+.timeline-info h3 {
+  color: #f21c42; }
 
 /*# sourceMappingURL=style.css.map */
