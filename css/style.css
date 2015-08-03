@@ -318,7 +318,7 @@ header {
 /*		    about section  	      */
 /* ============================== */
 #about {
-  padding: 55px 0 95px 0;
+  padding: 55px 0 0px 0;
   text-align: center; }
   #about .row {
     margin-top: 70px; }
@@ -617,7 +617,7 @@ header {
     height: 100%; }
   #venue h2 {
     color: #fff;
-    font-size: 48px; }
+    font-size: 32px; }
   #venue p {
     color: rgba(129, 140, 152, 0.7);
     font-size: 18px; }
@@ -675,7 +675,7 @@ header {
 /*		  timeline section    	  */
 /* ============================== */
 #timeline {
-  padding: 120px 0;
+  padding: 10px 0;
   text-align: center; }
   #timeline h2 {
     color: #82b3ae; }
