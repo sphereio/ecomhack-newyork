@@ -604,7 +604,7 @@ header {
 #venue {
   background-color: #fff;
   background-size: cover;
-  padding: 135px 0;
+  padding: 15px 0;
   position: relative; }
   #venue .overlay {
     background-color: #82b3ae;
@@ -1585,5 +1585,13 @@ div#partners hr {
 
 #about hr {
   background-color: #f21c42; }
+
+.btn-ecomhack {
+  background-color: #f21c42;
+  color: #fff;
+  margin: 0;
+  border-radius: 0;
+  margin-top: 20px;
+  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */

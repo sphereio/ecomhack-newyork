@@ -880,7 +880,7 @@ header{
 
 	background-color: #fff;
   background-size: cover;
-	padding: 135px 0;
+	padding: 15px 0;
 	position: relative;
 
 	.overlay{
@@ -2142,4 +2142,13 @@ div#partners{
 
 #about hr{
 	background-color: $ecomhack-red;
+}
+
+.btn-ecomhack{
+	background-color: $ecomhack-red;
+	color: #fff;
+	margin: 0;
+	border-radius: 0;
+	margin-top: 20px;
+	width: 100%;
 }
