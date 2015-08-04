@@ -604,7 +604,7 @@ header {
 #venue {
   background-color: #fff;
   background-size: cover;
-  padding: 15px 0;
+  padding: 0px 0;
   position: relative; }
   #venue .overlay {
     background-color: #82b3ae;
