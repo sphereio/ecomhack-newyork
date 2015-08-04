@@ -1596,13 +1596,13 @@ div#partners hr {
 #about hr {
   background-color: #f21c42; }
 
-.btn-ecomhack {
+.btn-ecomhack-big {
   background-color: #f21c42;
   color: #fff;
   margin: 0;
   border-radius: 0;
-  margin-top: 20px;
-  width: 100%;
+  margin: 20px auto;
+  width: 50%;
   font-style: normal; }
 
 /*# sourceMappingURL=style.css.map */
