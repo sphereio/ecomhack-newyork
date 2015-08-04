@@ -1536,7 +1536,17 @@ footer {
     font-size: 16px; }
 
   #map-location {
-    height: 480px; } }
+    height: 480px; }
+
+  .big-text {
+    color: #f21c42;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 330%;
+    line-height: 90px;
+    margin-top: 5px;
+    padding: 10px 0;
+    text-transform: uppercase; } }
 @media only screen and (max-width: 430px) {
   h1 {
     font-size: 50px !important; } }
