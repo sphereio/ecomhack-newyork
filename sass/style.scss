@@ -1017,8 +1017,8 @@ header{
 
 	.timeline-wrapper{
 		position: relative;
-		margin-top: 60px;
-		padding-bottom: 40px;
+		margin-top: 0px;
+		padding-bottom: 0px;
 
 		&:before{
 			background-color: #f0f1f2;
@@ -2107,7 +2107,7 @@ section#about{
 }
  section#venue p{
 	color: #fff;
-	font-size: 130%;
+	font-size: 16px;
 	text-align: center;
 }
 

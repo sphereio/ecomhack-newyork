@@ -710,8 +710,8 @@ header {
     transition: all .5s; }
   #timeline .timeline-wrapper {
     position: relative;
-    margin-top: 60px;
-    padding-bottom: 40px; }
+    margin-top: 0px;
+    padding-bottom: 0px; }
     #timeline .timeline-wrapper:before {
       background-color: #f0f1f2;
       content: '';
@@ -1560,7 +1560,7 @@ section#about p {
 
 section#venue p {
   color: #fff;
-  font-size: 130%;
+  font-size: 16px;
   text-align: center; }
 
 ul.rules li {
