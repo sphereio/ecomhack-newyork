@@ -682,7 +682,7 @@ header {
   #timeline .nav-tabs {
     display: inline-block;
     border: none;
-    margin-top: 60px; }
+    margin-top: 0px; }
     #timeline .nav-tabs li {
       width: 180px;
       height: 50px;
