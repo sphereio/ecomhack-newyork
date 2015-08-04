@@ -284,7 +284,7 @@ header {
       font-family: "Montserrat", sans-serif;
       color: #fff; }
   #main-section .main-intro .description {
-    padding-top: 70px;
+    padding-top: 0px;
     font-size: 14px;
     font-style: italic;
     line-height: 18px; }
