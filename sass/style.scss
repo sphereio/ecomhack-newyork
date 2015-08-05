@@ -17,7 +17,6 @@ $opensans-font: 'Open Sans', sans-serif;
 $merriweather-font: 'Merriweather', sans-serif;
 
 
-
 /* =======  mixins  ========  */
 
 // functions
@@ -141,7 +140,6 @@ $merriweather-font: 'Merriweather', sans-serif;
         float: left;
     }
 }
-
 @media only screen and (max-width: 480px) {
 	.col-md-15 {
         width: 100% !important;
@@ -401,20 +399,16 @@ header{
 
     .side-text{
 		padding-top: 235px;
-
-		.small-text{
-			font-size: 20px;
-			font-style: italic;
-			display: inline-block;
-			padding: 6px 15px;
-			border-top: 1px solid transparent_color(#fff, .2);
-			border-bottom: 1px solid transparent_color(#fff, .2);
-		}
+			.small-text{
+				font-size: 20px;
+				font-style: italic;
+				display: inline-block;
+				padding: 6px 15px;
+				border-top: 1px solid transparent_color(#fff, .2);
+				border-bottom: 1px solid transparent_color(#fff, .2);
+			}
     }
-
     .main-intro{
-	    // text-align: center;
-
 	    .curved-text{
 		    color: #fff;
 		    font-family: $montserrat-font;
@@ -423,30 +417,22 @@ header{
 		    text-transform: uppercase;
 		    letter-spacing: 5px;
 	    }
-
 	    .medium-text{
 		    font-size: 30px;
 		    font-style: italic;
 		    margin-top: 50px;
 		    display: inline-block;
 	    }
-
 	    h1{
 	    	color: #fff;
 		    font-family: $montserrat-font;
-		    // font-size: 92px;
-		    // font-weight: 700;
-		    // margin-top: 40px;
-		    // text-transform: uppercase;
-		    // letter-spacing: 7px;
         font-size: 72px;
         font-weight: 400;
         margin-top: 25px;
         font-size: 50px !important;
 	    }
 
-      .big-text {
-
+			.big-text {
         color: $ecomhack-red;
         font-family: $montserrat-font;
         font-weight: 700;
@@ -464,9 +450,11 @@ header{
         margin-top: 30px;
         margin-right: 60px;
         display: inline-block;
+
         i {
           padding-right: 10px;
         }
+
         .highlight {
           font-family: $montserrat-font;
           color: #fff;
@@ -485,16 +473,16 @@ header{
 		    @include button(200px, 50px);
 		    font-weight: 700;
 		    @include gradient();
-			margin: 55px auto 0;
-			@include radius(3px);
-			text-transform: uppercase;
-			letter-spacing: 2px;
-			transition: background-color 0.4s ease-out 0s;
+				margin: 55px auto 0;
+				@include radius(3px);
+				text-transform: uppercase;
+				letter-spacing: 2px;
+				transition: background-color 0.4s ease-out 0s;
 
-			&:hover{
-				background: linear-gradient(135deg,  #f05c6a 0%, #fe7955 100%);
-				background-color: $orange-color;
-			}
+				&:hover{
+					background: linear-gradient(135deg,  #f05c6a 0%, #fe7955 100%);
+					background-color: $orange-color;
+				}
 	    }
     }
 }
@@ -880,7 +868,7 @@ header{
 
 	background-color: #fff;
   background-size: cover;
-	padding:0px 0px 25px 0px;
+	padding:0px 0px 25px 0px ;
 	position: relative;
 
 	.overlay{
@@ -2070,18 +2058,6 @@ footer{
 
 	#map-location{height: 480px;}
 
-
-	.big-text {
-		color: $ecomhack-red;
-		font-family: $montserrat-font;
-		font-weight: 700;
-		font-size:330%;
-		line-height: 90px;
-		margin-top: 5px;
-		padding: 10px 0;
-		text-transform: uppercase;
-}
-
 }
 
 
@@ -2164,4 +2140,127 @@ div#partners{
 	margin: 20px auto;
 	width: 50%;
 	font-style: normal;
+	font-size: 300%;
+}
+
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen  and (min-device-width: 320px)  and (max-device-width: 480px)  and (-webkit-min-device-pixel-ratio: 2) {
+	#main-section .main-intro .big-text {
+		font-size:500% !important;
+			}
+
+
+	.btn-ecomhack-big{
+		width: 100%;
+					font-size: xx-large;
+	}
+
+}
+
+/* Portrait */
+@media only screen  and (min-device-width: 320px)  and (max-device-width: 480px)  and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) {
+	#main-section .main-intro .big-text {
+		font-size:500% !important;
+			}
+}
+
+/* Landscape */
+@media only screen  and (min-device-width: 320px)  and (max-device-width: 480px)  and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape) {
+	#main-section .main-intro .big-text {
+		font-size:500% !important;
+		}
+
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen  and (min-device-width: 320px)  and (max-device-width: 568px)  and (-webkit-min-device-pixel-ratio: 2) {
+	#main-section .main-intro .big-text {
+		font-size:280% !important;
+		line-height: 1.5em;
+			}
+		.btn-ecomhack-big{
+		width: 100%;
+					font-size: xx-large;
+	}
+
+}
+
+/* Portrait */
+@media only screen  and (min-device-width: 320px)  and (max-device-width: 568px)  and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) {
+	#main-section .main-intro .big-text {
+		font-size:280% !important;
+		line-height: 1.5em;
+			}
+}
+
+/* Landscape */
+@media only screen  and (min-device-width: 320px)  and (max-device-width: 568px)  and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape) {
+		.big-text {
+			font-size:280% !important;
+			line-height: 1.5em;
+			}
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen  and (min-device-width: 375px)  and (max-device-width: 667px)  and (-webkit-min-device-pixel-ratio: 2) {
+	#main-section .main-intro .big-text {
+		font-size:323% !important;
+			}
+		.btn-ecomhack-big{
+		width: 100%;
+					font-size: xx-large;
+	}
+
+}
+
+/* Portrait */
+@media only screen  and (min-device-width: 375px)  and (max-device-width: 667px)  and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) {
+	#main-section .main-intro .big-text {
+		font-size:323% !important;
+		}
+
+}
+
+/* Landscape */
+@media only screen  and (min-device-width: 375px)  and (max-device-width: 667px)  and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape) {
+	#main-section .main-intro .big-text {
+		font-size:323% !important;
+		}
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen  and (min-device-width: 414px)  and (max-device-width: 736px)  and (-webkit-min-device-pixel-ratio: 3) {
+	#main-section .main-intro .big-text {
+		font-size:375% !important;
+			}
+		.btn-ecomhack-big{
+			width: 100%;
+			font-size: xx-large;
+		}
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 414px)  and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+	#main-section .main-intro .big-text {
+		font-size:375% !important;
+			}
+
+}
+
+/* Landscape */
+@media only screen  and (min-device-width: 414px)  and (max-device-width: 736px)  and (-webkit-min-device-pixel-ratio: 3)  and (orientation: landscape) {
+	#main-section .main-intro .big-text {
+		font-size:375% !important;
+		}
+
 }
