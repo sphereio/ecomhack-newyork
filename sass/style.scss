@@ -226,12 +226,12 @@ a:focus, a:active{outline: none;}
 }
 
 //---- override bootstrap styles ------
-.navbar{transition: all .5s;}
+.navbar{background-color: #fff;}
 .nav > li > a:hover, .nav > li > a:focus{background-color: transparent;}
 .navbar-nav > li > a{padding: 10px 15px;}
 .navbar-nav{padding-top: 15px !important;}
-.navbar-header{padding-bottom: 5px !important; transition: all .5s;}
-.navbar{margin-bottom: 0; padding-top: 15px !important; padding-bottom: 20px !important; transition: all .5s;}
+.navbar-header{padding-bottom: 5px !important;}
+.navbar{margin-bottom: 0; padding-top: 15px !important; padding-bottom: 20px !important; }
 
 .navbar-toggle{
 	margin-top: 15px;
@@ -332,6 +332,7 @@ header{
 }
 
 
+
 .main-navigation-header{
 
 	padding: 25px 0;
@@ -349,7 +350,7 @@ header{
 			text-align: center;
 			a{
 				font-family: $montserrat-font;
-				color: transparent_color(#fff, .3);
+				color: #3b475f;
 				position: relative;
 				transition: all .6s;
         text-align: left;
@@ -365,7 +366,7 @@ header{
 				    z-index: 20;
 				}
 				&:hover{
-					color: #fff;
+					color: $ecomhack-red;
 					&:before{
 						height: 3px;
 					}
@@ -375,7 +376,6 @@ header{
 		}
 	}
 }
-
 
 /* ============================== */
 /*		    main section  	      */
@@ -2138,9 +2138,10 @@ div#partners{
 	margin: 0;
 	border-radius: 0;
 	margin: 20px auto;
-	width: 50%;
 	font-style: normal;
-	font-size: 300%;
+	font-size: 32px;
+	max-width: 300px;
+
 }
 
 
