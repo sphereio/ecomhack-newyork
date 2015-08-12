@@ -1,6 +1,6 @@
 function initialize() {
 
-      	var windowLatLng = new google.maps.LatLng(52.502541, 13.412209); // betahaus berlin
+      	var windowLatLng = new google.maps.LatLng(40.718424, -74.002504); // impact hub
 
       	var mapCanvas = document.getElementById('map-location');
 
@@ -8,18 +8,18 @@ function initialize() {
 	        center: windowLatLng,
 	        zoom: 13,
 	        scrollwheel: false,
-			navigationControl: false,
-			mapTypeControl: false,
-			scaleControl: false,
-	        mapTypeId: google.maps.MapTypeId.ROADMAP
+    			navigationControl: false,
+    			mapTypeControl: false,
+    			scaleControl: false,
+	        mapTypeId: google.maps.MapTypeId.ROADMAP,
+          draggable: false
         }
 
         var map = new google.maps.Map(mapCanvas, mapOptions);
 
         var contentString = '<div class="info-window">'+
-        	'<h3>betahaus Berlin</h3>'+
-        	'<span>Where you can find us</span>'+
-        	'<p>Prinzessinnenstr. 19<br>10969 Berlin<br>Germany</p>'+
+        	'<h3>ImpactHub NYC</h3>'+
+        	'<p>394 Broadway, NEW YORK, NY </p>'+
         	'</div>';
 
 		var infowindow = new google.maps.InfoWindow({
