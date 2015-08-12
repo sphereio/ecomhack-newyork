@@ -1,6 +1,6 @@
 function initialize() {
 
-      	var windowLatLng = new google.maps.LatLng(40.7275169, -74.0057193); // wework newYork
+      	var windowLatLng = new google.maps.LatLng(40.718424, -74.002504); // impact hub
 
       	var mapCanvas = document.getElementById('map-location');
 
@@ -18,9 +18,8 @@ function initialize() {
         var map = new google.maps.Map(mapCanvas, mapOptions);
 
         var contentString = '<div class="info-window">'+
-        	'<h3>WeWork NYC</h3>'+
-        	'<span>Where you can find us</span>'+
-        	'<p>175 VARICK STREET, NEW YORK, NY 10014</p>'+
+        	'<h3>ImpactHub NYC</h3>'+
+        	'<p>394 Broadway, NEW YORK, NY </p>'+
         	'</div>';
 
 		var infowindow = new google.maps.InfoWindow({
