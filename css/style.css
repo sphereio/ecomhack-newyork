@@ -673,7 +673,7 @@ header {
 /*		  timeline section    	  */
 /* ============================== */
 #timeline {
-  padding: 0px 0px 25px 0px;
+  padding: 25px 0px 25px 0px;
   text-align: center; }
   #timeline h2 {
     color: #82b3ae; }
