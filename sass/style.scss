@@ -348,7 +348,7 @@ header {
   background: url("http://www.ecomhack.io/img/gallery/presentation.jpg") no-repeat fixed center;
   background-color: $city-color;
   background-size: cover;
-  color: transparent_color(#fff, .4);
+  color: #fff;
   font-family: $montserrat-font;
   position: relative;
   padding: 105px 0 25px;
@@ -370,6 +370,7 @@ header {
     }
   }
   .main-intro {
+		text-align: center;
     .curved-text {
       color: #fff;
       font-family: $montserrat-font;
@@ -393,7 +394,7 @@ header {
       font-size: 50px !important;
     }
     .big-text {
-      color: $ecomhack-red;
+      color: #82B3AE;
       font-family: $montserrat-font;
       font-weight: 700;
       font-size: 530%;
@@ -1879,6 +1880,9 @@ div#partners {
   width: 350px;
   max-width: 350px;
   font-style: normal;
+	&:hover {
+		color: #82B3AE;
+	}
 }
 
 /* ----------- iPhone 4 and 4S ----------- */

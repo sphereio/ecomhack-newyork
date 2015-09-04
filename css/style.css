@@ -223,7 +223,7 @@ header {
   background: url("http://www.ecomhack.io/img/gallery/presentation.jpg") no-repeat fixed center;
   background-color: #82b3ae;
   background-size: cover;
-  color: rgba(255, 255, 255, 0.4);
+  color: #fff;
   font-family: "Montserrat", sans-serif;
   position: relative;
   padding: 105px 0 25px; }
@@ -245,76 +245,78 @@ header {
       padding: 6px 15px;
       border-top: 1px solid rgba(255, 255, 255, 0.2);
       border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
-  #main-section .main-intro .curved-text {
-    color: #fff;
-    font-family: "Montserrat", sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 5px; }
-  #main-section .main-intro .medium-text {
-    font-size: 30px;
-    font-style: italic;
-    margin-top: 50px;
-    display: inline-block; }
-  #main-section .main-intro h1 {
-    color: #fff;
-    font-family: "Montserrat", sans-serif;
-    font-size: 72px;
-    font-weight: 400;
-    margin-top: 25px;
-    font-size: 50px !important; }
-  #main-section .main-intro .big-text {
-    color: #f21c42;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    font-size: 530%;
-    line-height: 90px;
-    margin-top: 5px;
-    text-transform: uppercase; }
-  #main-section .main-intro .small-text {
-    font-size: 18px !important;
-    font-size: 20px;
-    text-transform: uppercase;
-    margin-top: 30px;
-    margin-right: 60px;
-    display: inline-block; }
-    #main-section .main-intro .small-text i {
-      padding-right: 10px; }
-    #main-section .main-intro .small-text .highlight {
-      font-family: "Montserrat", sans-serif;
-      color: #fff; }
-  #main-section .main-intro .description {
-    padding-top: 0;
-    font-size: 14px;
-    font-style: italic;
-    line-height: 18px;
+  #main-section .main-intro {
     text-align: center; }
-  #main-section .main-intro .main-button {
-    color: #fff;
-    font-family: "Montserrat", sans-serif;
-    display: block;
-    height: 50px;
-    width: 200px;
-    line-height: 50px;
-    text-align: center;
-    text-decoration: none;
-    font-weight: 700;
-    background: #fe7955;
-    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmU3OTU1IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2YwNWM2YSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
-    background: linear-gradient(135deg, #fe7955 0%, #f05c6a 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe7955', endColorstr='#f05c6a',GradientType=1 );
-    margin: 55px auto 0;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    background-clip: padding-box;
-    /* stops bg color from leaking outside the border: */
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    transition: background-color 0.4s ease-out 0s; }
-    #main-section .main-intro .main-button:hover {
-      background: linear-gradient(135deg, #f05c6a 0%, #fe7955 100%);
-      background-color: #f46464; }
+    #main-section .main-intro .curved-text {
+      color: #fff;
+      font-family: "Montserrat", sans-serif;
+      font-size: 40px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 5px; }
+    #main-section .main-intro .medium-text {
+      font-size: 30px;
+      font-style: italic;
+      margin-top: 50px;
+      display: inline-block; }
+    #main-section .main-intro h1 {
+      color: #fff;
+      font-family: "Montserrat", sans-serif;
+      font-size: 72px;
+      font-weight: 400;
+      margin-top: 25px;
+      font-size: 50px !important; }
+    #main-section .main-intro .big-text {
+      color: #82B3AE;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 530%;
+      line-height: 90px;
+      margin-top: 5px;
+      text-transform: uppercase; }
+    #main-section .main-intro .small-text {
+      font-size: 18px !important;
+      font-size: 20px;
+      text-transform: uppercase;
+      margin-top: 30px;
+      margin-right: 60px;
+      display: inline-block; }
+      #main-section .main-intro .small-text i {
+        padding-right: 10px; }
+      #main-section .main-intro .small-text .highlight {
+        font-family: "Montserrat", sans-serif;
+        color: #fff; }
+    #main-section .main-intro .description {
+      padding-top: 0;
+      font-size: 14px;
+      font-style: italic;
+      line-height: 18px;
+      text-align: center; }
+    #main-section .main-intro .main-button {
+      color: #fff;
+      font-family: "Montserrat", sans-serif;
+      display: block;
+      height: 50px;
+      width: 200px;
+      line-height: 50px;
+      text-align: center;
+      text-decoration: none;
+      font-weight: 700;
+      background: #fe7955;
+      background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmU3OTU1IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2YwNWM2YSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+      background: linear-gradient(135deg, #fe7955 0%, #f05c6a 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe7955', endColorstr='#f05c6a',GradientType=1 );
+      margin: 55px auto 0;
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+      background-clip: padding-box;
+      /* stops bg color from leaking outside the border: */
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      transition: background-color 0.4s ease-out 0s; }
+      #main-section .main-intro .main-button:hover {
+        background: linear-gradient(135deg, #f05c6a 0%, #fe7955 100%);
+        background-color: #f46464; }
 
 /* ============================== */
 /*		    about section  	      */
@@ -1624,6 +1626,8 @@ div#partners hr {
   width: 350px;
   max-width: 350px;
   font-style: normal; }
+  .btn-ecomhack-big:hover {
+    color: #82B3AE; }
 
 /* ----------- iPhone 4 and 4S ----------- */
 /* Portrait and Landscape */
