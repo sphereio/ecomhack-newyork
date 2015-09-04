@@ -74,13 +74,15 @@ hr {
   /* stops bg color from leaking outside the border: */
   border: none; }
 
-ul, li {
+ul,
+li {
   list-style: none; }
 
 a:hover {
   text-decoration: none !important; }
 
-a:focus, a:active {
+a:focus,
+a:active {
   outline: none; }
 
 /* ============================== */
@@ -104,7 +106,8 @@ a:focus, a:active {
 .navbar {
   background-color: #fff; }
 
-.nav > li > a:hover, .nav > li > a:focus {
+.nav > li > a:hover,
+.nav > li > a:focus {
   background-color: transparent; }
 
 .navbar-nav > li > a {
@@ -193,7 +196,7 @@ header {
         font-family: "Montserrat", sans-serif;
         color: #3b475f;
         position: relative;
-        transition: all .6s;
+        transition: all 0.6s;
         text-align: left;
         z-index: 1; }
         .main-navigation-header .main-navigation li a:before {
@@ -206,7 +209,7 @@ header {
           left: 15px;
           height: 0;
           width: 30px;
-          transition: height .5s;
+          transition: height 0.5s;
           z-index: 20; }
         .main-navigation-header .main-navigation li a:hover {
           color: #f21c42; }
@@ -217,13 +220,13 @@ header {
 /*		    main section  	      */
 /* ============================== */
 #main-section {
-  background: url(http://www.ecomhack.io/img/gallery/presentation.jpg) no-repeat fixed center;
+  background: url("http://www.ecomhack.io/img/gallery/presentation.jpg") no-repeat fixed center;
   background-color: #82b3ae;
   background-size: cover;
   color: rgba(255, 255, 255, 0.4);
   font-family: "Montserrat", sans-serif;
   position: relative;
-  padding: 105px 0 25px 0; }
+  padding: 105px 0 25px; }
   #main-section .overlay {
     background-color: rgba(25, 33, 50, 0.92);
     position: absolute;
@@ -282,7 +285,7 @@ header {
       font-family: "Montserrat", sans-serif;
       color: #fff; }
   #main-section .main-intro .description {
-    padding-top: 0px;
+    padding-top: 0;
     font-size: 14px;
     font-style: italic;
     line-height: 18px;
@@ -317,7 +320,7 @@ header {
 /*		    about section  	      */
 /* ============================== */
 #about {
-  padding: 25px 0 25px 0;
+  padding: 25px 0;
   text-align: center; }
   #about p {
     font-size: 18px; }
@@ -352,28 +355,37 @@ header {
 /* ============================== */
 /*		    features section  	  */
 /* ============================== */
-#event, #prices {
+#event,
+#prices {
   background-color: #fff;
   background-size: cover;
   padding: 80px 0;
   text-align: center; }
-  #event hr, #prices hr {
+  #event hr,
+  #prices hr {
     background-color: rgba(0, 0, 0, 0.1); }
-  #event .main-text, #prices .main-text {
+  #event .main-text,
+  #prices .main-text {
     max-width: 590px; }
-  #event ul, #prices ul {
+  #event ul,
+  #prices ul {
     padding: 50px 0; }
-    #event ul.sub-list, #prices ul.sub-list {
+    #event ul.sub-list,
+    #prices ul.sub-list {
       padding: 0;
       font-size: 14px;
       opacity: 0.8; }
-      #event ul.sub-list li, #prices ul.sub-list li {
+      #event ul.sub-list li,
+      #prices ul.sub-list li {
         padding: 0; }
-  #event li, #prices li {
+  #event li,
+  #prices li {
     padding-bottom: 15px; }
-  #event .feature-item, #prices .feature-item {
+  #event .feature-item,
+  #prices .feature-item {
     margin-top: 80px; }
-    #event .feature-item i, #prices .feature-item i {
+    #event .feature-item i,
+    #prices .feature-item i {
       color: #3b475f;
       background-color: #fff;
       font-size: 36px;
@@ -387,27 +399,35 @@ header {
       background-clip: padding-box;
       /* stops bg color from leaking outside the border: */
       margin: 0 auto;
-      transition: all .7s; }
-    #event .feature-item h3, #prices .feature-item h3 {
+      transition: all 0.7s; }
+    #event .feature-item h3,
+    #prices .feature-item h3 {
       margin-top: 23px; }
-    #event .feature-item p, #prices .feature-item p {
+    #event .feature-item p,
+    #prices .feature-item p {
       margin-top: 18px;
       padding: 0 20px;
       line-height: 24px; }
-    #event .feature-item a, #prices .feature-item a {
+    #event .feature-item a,
+    #prices .feature-item a {
       color: #3b475f;
       text-transform: capitalize;
-      transition: all .7s; }
-      #event .feature-item a:hover, #prices .feature-item a:hover {
+      transition: all 0.7s; }
+      #event .feature-item a:hover,
+      #prices .feature-item a:hover {
         text-decoration: none; }
-    #event .feature-item:hover > i, #prices .feature-item:hover > i {
+    #event .feature-item:hover > i,
+    #prices .feature-item:hover > i {
       background-color: #3b475f;
       color: #e1e2e9; }
-    #event .feature-item:hover > a, #prices .feature-item:hover > a {
+    #event .feature-item:hover > a,
+    #prices .feature-item:hover > a {
       color: #f46464; }
-  #event .owl-controls, #prices .owl-controls {
+  #event .owl-controls,
+  #prices .owl-controls {
     margin-top: 75px; }
-  #event .owl-pagination .owl-page span, #prices .owl-pagination .owl-page span {
+  #event .owl-pagination .owl-page span,
+  #prices .owl-pagination .owl-page span {
     background-color: transparent;
     width: 16px;
     height: 16px;
@@ -417,8 +437,9 @@ header {
     background-clip: padding-box;
     /* stops bg color from leaking outside the border: */
     margin-bottom: 7px;
-    transition: all .5s; }
-  #event .owl-pagination .active span, #prices .owl-pagination .active span {
+    transition: all 0.5s; }
+  #event .owl-pagination .active span,
+  #prices .owl-pagination .active span {
     background-color: #f46464;
     width: 20px;
     height: 20px;
@@ -467,7 +488,7 @@ header {
     border-radius: 3px;
     background-clip: padding-box;
     /* stops bg color from leaking outside the border: */
-    transition: all .5s; }
+    transition: all 0.5s; }
     #z-layout1 .button:hover {
       background-color: #3b475f;
       color: #fff; }
@@ -525,7 +546,7 @@ header {
       border-radius: 50%;
       background-clip: padding-box;
       /* stops bg color from leaking outside the border: */
-      transition: all .5s; }
+      transition: all 0.5s; }
       #jury .team-item .hovered i {
         color: #fff;
         font-size: 24px;
@@ -533,7 +554,7 @@ header {
         height: 48px;
         line-height: 48px;
         position: absolute;
-        transition: all .3s;
+        transition: all 0.3s;
         background: #fe7955;
         background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmU3OTU1IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2YwNWM2YSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
         background: linear-gradient(135deg, #fe7955 0%, #f05c6a 100%);
@@ -555,11 +576,11 @@ header {
       font-family: "Montserrat", sans-serif;
       font-size: 18px;
       font-weight: 400;
-      transition: all .5s;
-      transition: all .5s; }
+      transition: all 0.5s;
+      transition: all 0.5s; }
     #jury .team-item p {
       color: rgba(0, 0, 0, 0.5);
-      transition: all .5s; }
+      transition: all 0.5s; }
     #jury .team-item .wrapper {
       display: inline-block; }
       #jury .team-item .wrapper:hover .hovered {
@@ -587,7 +608,7 @@ header {
       background-clip: padding-box;
       /* stops bg color from leaking outside the border: */
       margin-bottom: 7px;
-      transition: all .5s; }
+      transition: all 0.5s; }
     #jury .owl-pagination .active span {
       background-color: #fff;
       width: 20px;
@@ -605,7 +626,7 @@ header {
 #venue {
   background-color: #fff;
   background-size: cover;
-  padding: 25px 0px 25px 0px;
+  padding: 25px 0;
   position: relative; }
   #venue .overlay {
     background-color: #82b3ae;
@@ -639,7 +660,7 @@ header {
     border-radius: 3px;
     background-clip: padding-box;
     /* stops bg color from leaking outside the border: */
-    transition: all .5s; }
+    transition: all 0.5s; }
     #venue .button:hover {
       background-color: #fff;
       color: #192132; }
@@ -676,14 +697,14 @@ header {
 /*		  timeline section    	  */
 /* ============================== */
 #timeline {
-  padding: 25px 0px 25px 0px;
+  padding: 25px 0;
   text-align: center; }
   #timeline h2 {
     color: #82b3ae; }
   #timeline .nav-tabs {
     display: inline-block;
     border: none;
-    margin-top: 0px; }
+    margin-top: 0; }
     #timeline .nav-tabs li {
       width: 180px;
       height: 50px;
@@ -701,18 +722,18 @@ header {
         background-clip: padding-box;
         /* stops bg color from leaking outside the border: */
         text-transform: uppercase;
-        transition: all .5s; }
+        transition: all 0.5s; }
     #timeline .nav-tabs .active a {
       background-color: #f4f6f8;
       color: #1f2429;
       line-height: 50px;
       border: none; }
   #timeline .tab-pane {
-    transition: all .5s; }
+    transition: all 0.5s; }
   #timeline .timeline-wrapper {
     position: relative;
     margin-top: 40px;
-    padding-bottom: 0px; }
+    padding-bottom: 0; }
     #timeline .timeline-wrapper:before {
       background-color: #f0f1f2;
       content: '';
@@ -755,9 +776,9 @@ header {
     #timeline .timeline-wrapper .timeline-block {
       position: relative;
       margin: 2em 0;
-      margin: 0 auto 50px;
-      overflow: hidden; }
-    #timeline .timeline-wrapper .timeline-date, #timeline .timeline-wrapper .timeline-info {
+      margin: 0 auto 50px; }
+    #timeline .timeline-wrapper .timeline-date,
+    #timeline .timeline-wrapper .timeline-info {
       width: 50%;
       padding: 0 40px; }
     #timeline .timeline-wrapper .timeline-info span {
@@ -877,7 +898,7 @@ header {
       background-clip: padding-box;
       /* stops bg color from leaking outside the border: */
       margin-bottom: 7px;
-      transition: all .5s; }
+      transition: all 0.5s; }
     #testimonials .owl-pagination .active span {
       background-color: #fff;
       width: 20px;
@@ -961,7 +982,7 @@ header {
       display: block;
       border-top: 1px solid rgba(0, 0, 0, 0.06);
       text-transform: uppercase;
-      transition: all .5s; }
+      transition: all 0.5s; }
       #pricing .table-item .button:hover {
         color: #fff;
         background-color: #3b475f; }
@@ -1053,7 +1074,7 @@ header {
     #apis .item a {
       display: table-cell;
       vertical-align: middle;
-      transition: .5s -webkit-filter linear; }
+      transition: 0.5s -webkit-filter linear; }
       #apis .item a img {
         width: auto !important;
         vertical-align: middle;
@@ -1063,7 +1084,7 @@ header {
         /* IE6-9 */
         -webkit-filter: grayscale(1);
         /* Google Chrome, Safari 6+ & Opera 15+ */
-        transition: .5s -webkit-filter linear; }
+        transition: 0.5s -webkit-filter linear; }
       #apis .item a:hover img {
         filter: none;
         -webkit-filter: grayscale(0); }
@@ -1097,7 +1118,7 @@ header {
     border-radius: 5px;
     background-clip: padding-box;
     /* stops bg color from leaking outside the border: */
-    transition: all .5s; }
+    transition: all 0.5s; }
     #apis .button:hover {
       background-color: #f46464;
       color: #fff;
@@ -1148,8 +1169,7 @@ header {
     margin-top: 30px; }
   #cta-section img {
     display: block;
-    margin: 0 auto;
-    margin-top: 20px; }
+    margin: 20px auto 0; }
   #cta-section a {
     color: #fff;
     font-family: "Montserrat", sans-serif;
@@ -1234,7 +1254,7 @@ header {
 #socials {
   text-align: center; }
   #socials .col-item {
-    padding: 70px 0 60px 0;
+    padding: 70px 0 60px;
     border-right: 1px solid #f0f1f2; }
     #socials .col-item:last-child {
       border-right: none; }
@@ -1272,7 +1292,7 @@ header {
           border-radius: 50%;
           background-clip: padding-box;
           /* stops bg color from leaking outside the border: */
-          transition: all .5s; }
+          transition: all 0.5s; }
           #socials .col-item .socials li i:hover {
             background-color: #f46464;
             color: #fff; }
@@ -1316,7 +1336,9 @@ header {
     display: none !important; }
   #map-location img[src^="https://maps.gstatic.com/mapfiles/api-3/images/"] {
     display: none !important; }
-  #map-location .gmnoprint a, #map-location .gmnoprint span, #map-location .gm-style-cc {
+  #map-location .gmnoprint a,
+  #map-location .gmnoprint span,
+  #map-location .gm-style-cc {
     display: none; }
   #map-location .gmnoprint div {
     background: none !important; }
@@ -1358,7 +1380,8 @@ footer {
   .small-text {
     font-size: 18px !important; }
 
-  #z-layout1 h2, #venue h2 {
+  #z-layout1 h2,
+  #venue h2 {
     font-size: 38px; }
 
   #pricing .table-item h3 {
@@ -1377,7 +1400,11 @@ footer {
   h2 {
     font-size: 28px !important; }
 
-  #z-layout1, #venue, #timeline, #faqs, #testimonials {
+  #z-layout1,
+  #venue,
+  #timeline,
+  #faqs,
+  #testimonials {
     padding: 90px 0; }
 
   #about-section .row {
@@ -1411,7 +1438,8 @@ footer {
   #pricing .table-item hr {
     top: 105px; }
 
-  #partners .first-row, #partners .second-row {
+  #partners .first-row,
+  #partners .second-row {
     width: 100%; }
   #partners .item {
     width: 33%; }
@@ -1505,7 +1533,8 @@ footer {
   h2 {
     font-size: 24px !important; }
 
-  #z-layout1 h2, #venue h2 {
+  #z-layout1 h2,
+  #venue h2 {
     line-height: 48px; }
 
   #pricing .table-item p {
