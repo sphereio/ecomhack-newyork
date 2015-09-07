@@ -345,10 +345,11 @@ header {
 /*		    main section  	      */
 /* ============================== */
 #main-section {
-  background: url("http://www.ecomhack.io/img/gallery/presentation.jpg") no-repeat fixed center;
+  background: url("../img/presentation.jpg") no-repeat fixed center;
   background-color: $city-color;
   background-size: cover;
   color: #fff;
+  height: 90vh;
   font-family: $montserrat-font;
   position: relative;
   padding: 105px 0 25px;
@@ -386,7 +387,7 @@ header {
       display: inline-block;
     }
     h1 {
-      color: #fff;
+      color: $ecomhack-red;
       font-family: $montserrat-font;
       font-size: 72px;
       font-weight: 400;
@@ -394,7 +395,7 @@ header {
       font-size: 50px !important;
     }
     .big-text {
-      color: #82B3AE;
+      color: #fff;
       font-family: $montserrat-font;
       font-weight: 700;
       font-size: 530%;
@@ -1881,8 +1882,17 @@ div#partners {
   max-width: 350px;
   font-style: normal;
 	&:hover {
-		color: #82B3AE;
+		color: $ecomhack-red;
+    background: #fff;
 	}
+}
+
+// Media Queries
+
+@media screen and (max-width: 610px) {
+  #main-section {
+    height: auto;
+  }
 }
 
 /* ----------- iPhone 4 and 4S ----------- */
