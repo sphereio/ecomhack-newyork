@@ -247,7 +247,8 @@ header {
       border-top: 1px solid rgba(255, 255, 255, 0.2);
       border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
   #main-section .main-intro {
-    text-align: center; }
+    text-align: center;
+    padding-top: 10%; }
     #main-section .main-intro .curved-text {
       color: #fff;
       font-family: "Montserrat", sans-serif;
