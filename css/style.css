@@ -224,7 +224,7 @@ header {
   background-color: #82b3ae;
   background-size: cover;
   color: #fff;
-  height: 90vh;
+  height: 700px;
   font-family: "Montserrat", sans-serif;
   position: relative;
   padding: 105px 0 25px; }
@@ -248,7 +248,7 @@ header {
       border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
   #main-section .main-intro {
     text-align: center;
-    padding-top: 10%; }
+    margin-top: 5%; }
     #main-section .main-intro .curved-text {
       color: #fff;
       font-family: "Montserrat", sans-serif;
