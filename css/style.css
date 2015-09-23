@@ -1045,11 +1045,10 @@ header {
 /*		     faqs section         */
 /* ============================== */
 #apis {
-  background: #82b3ae;
-  padding: 75px 0;
+  padding-bottom: 20px;
   text-align: center; }
   #apis h2 {
-    color: #fff; }
+    color: #82B3AE; }
   #apis hr {
     background-color: #f21c42;
     margin: 25px auto;
@@ -1300,6 +1299,36 @@ header {
           #socials .col-item .socials li i:hover {
             background-color: #f46464;
             color: #fff; }
+
+@media screen and (max-width: 767px) {
+  .angelhack-logo {
+    max-height: 100px; } }
+
+.f6s-logo {
+  max-height: 100px;
+  max-width: 100px; }
+  @media screen and (max-width: 767px) {
+    .f6s-logo {
+      max-height: 100px;
+      max-width: none;
+      margin-top: 0; } }
+
+.impact-hub-logo {
+  padding-top: 20px;
+  padding-left: 20px; }
+  @media screen and (max-width: 767px) {
+    .impact-hub-logo {
+      max-height: 100px;
+      margin: 50px auto;
+      padding: 0; } }
+
+.ct-logo {
+  margin: 30% 0; }
+  @media screen and (max-width: 767px) {
+    .ct-logo {
+      margin: 30px auto;
+      max-height: 100px;
+      max-width: 200px !important; } }
 
 /* ============================== */
 /*		     Maps section         */

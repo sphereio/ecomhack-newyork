@@ -1215,11 +1215,10 @@ header {
 /*		     faqs section         */
 /* ============================== */
 #apis {
-  background: #82b3ae;
-  padding: 75px 0;
+  padding-bottom: 20px;
   text-align: center;
   h2 {
-    color: #fff;
+    color: #82B3AE;
   }
   hr {
     background-color: $ecomhack-red;
@@ -1483,6 +1482,39 @@ header {
         }
       }
     }
+  }
+}
+
+// Partner section
+.angelhack-logo {
+  @media screen and (max-width: 767px) {
+    max-height: 100px;
+  }
+}
+.f6s-logo {
+  max-height: 100px;
+  max-width: 100px;
+  @media screen and (max-width: 767px) {
+    max-height: 100px;
+    max-width: none;
+    margin-top: 0;
+  }
+}
+.impact-hub-logo {
+  padding-top: 20px;
+  padding-left: 20px;
+  @media screen and (max-width: 767px) {
+    max-height: 100px;
+    margin: 50px auto;
+    padding: 0;
+  }
+}
+.ct-logo {
+	margin: 30% 0;
+  @media screen and (max-width: 767px) {
+    margin: 30px auto;
+    max-height: 100px;
+    max-width: 200px!important; // overwrite .img-responsive
   }
 }
 
