@@ -1314,8 +1314,7 @@ header {
       margin-top: 0; } }
 
 .impact-hub-logo {
-  padding-top: 20px;
-  padding-left: 20px; }
+  padding: 10px 10px; }
   @media screen and (max-width: 767px) {
     .impact-hub-logo {
       max-height: 100px;
