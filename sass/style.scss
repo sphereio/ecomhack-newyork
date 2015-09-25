@@ -1485,6 +1485,34 @@ header {
   }
 }
 
+// Prizes section
+.prizes-section {
+  background: #82B3AE;
+  color: #fff;
+  padding: 30px 0;
+}
+.prices-section-hr {
+  background-color: $ecomhack-red;
+}
+.prizes-section-title {
+  text-align: center;
+  font-size: 32px;
+  color: #fff;
+}
+.prizes-title {
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 0;
+}
+.prizes-list {
+  border-top: 1px solid #fff;
+  padding-top: 20px;
+  li {
+    list-style-type: disc;
+    font-size: 18px;
+  }
+}
+
 // Partner section
 .angelhack-logo {
   @media screen and (max-width: 767px) {
