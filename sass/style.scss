@@ -1508,14 +1508,6 @@ header {
     padding: 0;
   }
 }
-.ct-logo {
-	margin: 30% 0;
-  @media screen and (max-width: 767px) {
-    margin: 30px auto;
-    max-height: 100px;
-    max-width: 200px!important; // overwrite .img-responsive
-  }
-}
 
 /* ============================== */
 /*		     Maps section         */

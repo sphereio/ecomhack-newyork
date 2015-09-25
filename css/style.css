@@ -1321,14 +1321,6 @@ header {
       margin: 50px auto;
       padding: 0; } }
 
-.ct-logo {
-  margin: 30% 0; }
-  @media screen and (max-width: 767px) {
-    .ct-logo {
-      margin: 30px auto;
-      max-height: 100px;
-      max-width: 200px !important; } }
-
 /* ============================== */
 /*		     Maps section         */
 /* ============================== */
