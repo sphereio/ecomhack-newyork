@@ -54,7 +54,7 @@ h3 {
 
 p {
   color: #818c98;
-  line-height: 28px; }
+  line-height: 35px; }
 
 .section-title {
   color: #f46464;
@@ -323,34 +323,35 @@ header {
 /* ============================== */
 /*		    about section  	      */
 /* ============================== */
-#about {
+.about {
   padding: 25px 0;
   text-align: center; }
-  #about p {
-    font-size: 18px; }
-  #about .row {
+  .about p {
+    font-size: 18px;
+    text-align: left; }
+  .about .row {
     margin-top: 70px; }
-  #about h2 {
+  .about h2 {
     margin-top: 17px;
     color: #82b3ae; }
-  #about hr {
+  .about hr {
     background-color: rgba(0, 0, 0, 0.1); }
-  #about .main-text {
+  .about .main-text {
     max-width: 590px; }
-  #about .left-wrapper {
+  .about .left-wrapper {
     padding-top: 85px; }
-    #about .left-wrapper .large-text {
+    .about .left-wrapper .large-text {
       color: #a8b4c1;
       font-family: "Montserrat", sans-serif;
       font-size: 24px;
       font-style: italic;
       padding-right: 30px;
       line-height: 36px; }
-  #about .right-wrapper {
+  .about .right-wrapper {
     padding-left: 50px; }
-    #about .right-wrapper h3 {
+    .about .right-wrapper h3 {
       margin-top: 10px; }
-    #about .right-wrapper .medium-text {
+    .about .right-wrapper .medium-text {
       color: #818c98;
       font-size: 18px;
       line-height: 28px;
@@ -1624,7 +1625,7 @@ span.p-title {
   display: block;
   font-size: 130%; }
 
-section#about p {
+section .about p {
   text-align: justify; }
 
 section#venue p {
@@ -1661,7 +1662,7 @@ div#partners hr {
 .timeline-info h3 {
   color: #f21c42; }
 
-#about hr {
+.about hr {
   background-color: #f21c42; }
 
 .btn-ecomhack-big {
