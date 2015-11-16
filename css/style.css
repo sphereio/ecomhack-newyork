@@ -219,6 +219,17 @@ header {
 /* ============================== */
 /*		    main section  	      */
 /* ============================== */
+.email-field {
+  margin-top: 20px;
+  color: black;
+  width: 350px;
+  border: none;
+  padding: 3px 10px;
+  border-radius: 2px; }
+  @media screen and (max-width: 767px) {
+    .email-field {
+      width: 100%; } }
+
 #main-section {
   background: url("../img/presentation.jpg") no-repeat fixed center;
   background-color: #82b3ae;
@@ -280,8 +291,7 @@ header {
       font-size: 18px !important;
       font-size: 20px;
       text-transform: uppercase;
-      margin-top: 30px;
-      margin-right: 60px;
+      margin-top: 10px;
       display: inline-block; }
       #main-section .main-intro .small-text i {
         padding-right: 10px; }
@@ -1669,14 +1679,18 @@ div#partners hr {
   background-color: #f21c42;
   color: #fff;
   margin: 0;
-  border-radius: 5px;
+  border-radius: 2px;
   margin-top: 20px;
   width: 350px;
+  font-size: 15px;
   max-width: 350px;
   font-style: normal; }
   .btn-ecomhack-big:hover {
     color: #f21c42;
     background: #fff; }
+  @media screen and (max-width: 767px) {
+    .btn-ecomhack-big {
+      width: 100%; } }
 
 @media screen and (max-width: 610px) {
   #main-section {
@@ -1685,11 +1699,7 @@ div#partners hr {
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   #main-section .main-intro .big-text {
-    font-size: 500% !important; }
-
-  .btn-ecomhack-big {
-    width: 100%;
-    font-size: xx-large; } }
+    font-size: 500% !important; } }
 /* Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   #main-section .main-intro .big-text {
@@ -1703,11 +1713,7 @@ div#partners hr {
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
   #main-section .main-intro .big-text {
     font-size: 280% !important;
-    line-height: 1.5em; }
-
-  .btn-ecomhack-big {
-    width: 100%;
-    font-size: xx-large; } }
+    line-height: 1.5em; } }
 /* Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   #main-section .main-intro .big-text {
@@ -1722,11 +1728,7 @@ div#partners hr {
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   #main-section .main-intro .big-text {
-    font-size: 323% !important; }
-
-  .btn-ecomhack-big {
-    width: 100%;
-    font-size: xx-large; } }
+    font-size: 323% !important; } }
 /* Portrait */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   #main-section .main-intro .big-text {
@@ -1739,11 +1741,7 @@ div#partners hr {
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
   #main-section .main-intro .big-text {
-    font-size: 375% !important; }
-
-  .btn-ecomhack-big {
-    width: 100%;
-    font-size: xx-large; } }
+    font-size: 375% !important; } }
 /* Portrait */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
   #main-section .main-intro .big-text {

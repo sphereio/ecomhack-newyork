@@ -344,6 +344,17 @@ header {
 /* ============================== */
 /*		    main section  	      */
 /* ============================== */
+.email-field {
+  margin-top: 20px;
+  color: black;
+  width: 350px;
+  border: none;
+  padding: 3px 10px;
+  border-radius: 2px;
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
+}
 #main-section {
   background: url("../img/presentation.jpg") no-repeat fixed center;
   background-color: $city-color;
@@ -408,8 +419,7 @@ header {
       font-size: 18px !important;
       font-size: 20px;
       text-transform: uppercase;
-      margin-top: 30px;
-      margin-right: 60px;
+      margin-top: 10px;
       display: inline-block;
       i {
         padding-right: 10px;
@@ -1929,15 +1939,19 @@ div#partners {
   background-color: $ecomhack-red;
   color: #fff;
   margin: 0;
-  border-radius: 5px;
+  border-radius: 2px;
   margin-top: 20px;
   width: 350px;
+  font-size: 15px;
   max-width: 350px;
   font-style: normal;
 	&:hover {
 		color: $ecomhack-red;
     background: #fff;
 	}
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
 }
 
 // Media Queries
@@ -1953,10 +1967,6 @@ div#partners {
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   #main-section .main-intro .big-text {
     font-size: 500% !important;
-  }
-  .btn-ecomhack-big {
-    width: 100%;
-    font-size: xx-large;
   }
 }
 
@@ -1980,10 +1990,6 @@ div#partners {
   #main-section .main-intro .big-text {
     font-size: 280% !important;
     line-height: 1.5em;
-  }
-  .btn-ecomhack-big {
-    width: 100%;
-    font-size: xx-large;
   }
 }
 
@@ -2009,10 +2015,6 @@ div#partners {
   #main-section .main-intro .big-text {
     font-size: 323% !important;
   }
-  .btn-ecomhack-big {
-    width: 100%;
-    font-size: xx-large;
-  }
 }
 
 /* Portrait */
@@ -2034,10 +2036,6 @@ div#partners {
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
   #main-section .main-intro .big-text {
     font-size: 375% !important;
-  }
-  .btn-ecomhack-big {
-    width: 100%;
-    font-size: xx-large;
   }
 }
 
