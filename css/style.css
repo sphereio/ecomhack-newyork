@@ -230,6 +230,10 @@ header {
     .email-field {
       width: 100%; } }
 
+@media screen and (max-width: 991px) {
+  .subscribe-col {
+    text-align: center; } }
+
 #main-section {
   background: url("../img/presentation.jpg") no-repeat fixed center;
   background-color: #82b3ae;

@@ -355,6 +355,11 @@ header {
     width: 100%;
   }
 }
+.subscribe-col {
+  @media screen and (max-width: 991px) {
+    text-align: center;
+  }
+}
 #main-section {
   background: url("../img/presentation.jpg") no-repeat fixed center;
   background-color: $city-color;
